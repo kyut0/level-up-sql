@@ -29,3 +29,6 @@ SELECT *
 FROM Table1Name
 JOIN Table2Name ON Table1Name.KeyID = Table2Name.KeyID
 WHERE Table2Name.FieldX = "ValueX"
+
+-- Note: You can use SELECT statements as subqueries inside other statements. Just use parenthesis
+  -- See Challenge 01_07 for example
