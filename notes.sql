@@ -23,3 +23,9 @@ SET FieldX = "ValueX",
     FieldY = "ValueY",
     etc.
 WHERE FieldID = ID;
+
+-- To join two tables:
+SELECT *
+FROM Table1Name
+JOIN Table2Name ON Table1Name.KeyID = Table2Name.KeyID
+WHERE Table2Name.FieldX = "ValueX"
