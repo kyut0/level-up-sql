@@ -16,3 +16,10 @@ CREATE TABLE TableName (
 -- To insert data into existing table:
 INSERT INTO TableName (Field1, Field2, ..., FieldN)
 VALUES ("Value1", "Value2", ..., "ValueN");
+
+-- To update data in table:
+UPDATE TableName
+SET FieldX = "ValueX",
+    FieldY = "ValueY",
+    etc.
+WHERE FieldID = ID;
